@@ -1039,6 +1039,15 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .footer-col-title {
+        text-align: center;
+    }
+    .img-responsive{
+        display: inline;
+    }
+    
+   
+
 }
 
 @media (max-width: 400px) {
@@ -1051,5 +1060,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    h2{
+        font-size: 20px;
     }
 }
