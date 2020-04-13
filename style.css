@@ -1064,4 +1064,15 @@ h4 {
     h2{
         font-size: 20px;
     }
+    iframe{
+        display: block;
+        margin:auto;
+        width: 350px;
+    }
+    h2.form, adress{
+        text-align: center;
+        display: block;
+        margin-bottom: 20px;
+    }
+   
 }
