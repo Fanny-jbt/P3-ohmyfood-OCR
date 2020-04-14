@@ -897,6 +897,11 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+    iframe{
+        display: block;
+        margin:auto;
+        width: 350px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1046,6 +1051,7 @@ h4 {
         display: inline;
     }
     
+    
    
 
 }
@@ -1074,5 +1080,12 @@ h4 {
         display: block;
         margin-bottom: 20px;
     }
+    ul.liste{
+     width:50%;
+     margin:   auto  auto 30PX auto;
+     
+      }
+     
+    
    
 }
