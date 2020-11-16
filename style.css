@@ -17,9 +17,10 @@ button {
     outline: none!important;
 }
 
-a:hover {
-    text-decoration: none;
+a:hover, a:focus {
+    text-decoration: underline;
     cursor: pointer;
+    
 }
 
 #page-loading-blocs-notifaction {
@@ -681,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -785,12 +786,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f3e0d7!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    text-decoration: underline;
 }
 
 .btn-atomic-tangerine:hover {
@@ -902,6 +904,7 @@ h4 {
         margin:auto;
         width: 350px;
     }
+   
 }
 
 @media (max-width: 767px) {
@@ -921,8 +924,9 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
-    
-
+    h2{
+        font-size: 18px;
+    }
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1067,9 +1071,7 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-    h2{
-        font-size: 20px;
-    }
+    
     iframe{
         display: block;
         margin:auto;
