@@ -31,7 +31,10 @@ a:hover, a:focus {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.img{
+    width: 270px;
+    height: 270px;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -96,7 +99,7 @@ a:hover, a:focus {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background-image: url("img/texture-paper.jpg");
     background-size: 280px 280px;
 }
 
@@ -347,7 +350,7 @@ a:hover, a:focus {
     border: 0px;
 }
 
-.navbar-toggle:hover {
+.navbar-toggle:hover, .navbar-toggle:focus {
     background: transparent!important;
 }
 
@@ -376,7 +379,8 @@ a:hover, a:focus {
         -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
+    .nav > li .dropdown-menu a:hover,
+    .nav > li .dropdown-menu a:focus{
         color: #484848;
     }
     .nav-invert .site-navigation {
@@ -795,7 +799,7 @@ h4 {
     text-decoration: underline;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,.btn-atomic-tangerine:focus {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
@@ -822,11 +826,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.jpg");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.jpg");
 }
 
 .bg-banniere {
@@ -953,7 +957,7 @@ h4 {
         padding-left: 15px;
         width: 100%;
     }
-    .nav > li:hover {
+    .nav > li:hover, .nav > li:focus {
         background: rgba(0, 0, 0, .08);
     }
     .dropdown .dropdown a .caret {
